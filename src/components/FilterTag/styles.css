@@ -1,0 +1,30 @@
+.filter-container {
+    width: 80px;
+    height: 24px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.filter-container:hover {
+    background: #eee;
+}
+
+.filter-container.active {
+    background: white;
+    border: 0;
+    box-shadow: 0 1px 2px #ccc;
+}
+
+.tag-name {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.tag-name.active {
+    color: #333;
+}

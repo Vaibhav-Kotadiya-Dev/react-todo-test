@@ -1,0 +1,57 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f5f5;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  overflow-y: scroll;
+}
+
+.header {
+  font-size: 40px;
+  font-weight: 400;
+  color: #555;
+  margin: 16px;
+}
+
+.title-and-filter {
+  height: 20px;
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 24px;
+  color: #555;
+  margin-right: 10px;
+}
+
+.filter-field {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-icon {
+  height: 20px;
+  margin: 0 8px;
+}
+
+.addTaskWrap{
+  display: flex;
+  align-items: center;
+}

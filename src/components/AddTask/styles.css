@@ -1,0 +1,27 @@
+.addTask-container {
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    display: flex;
+    margin: 8px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.addTask-container:hover {
+    background: #eee;
+}
+
+.icon {
+    width: 24px;
+}
+
+.text {
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 16px;
+}

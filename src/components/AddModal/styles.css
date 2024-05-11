@@ -1,0 +1,102 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.add-task-container {
+  width: 40vw;
+  height: 40vh;
+  background: white;
+  border-radius: 16px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+
+.buttons {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.add-task-cancel-button,
+.add-task-add-button {
+  background: white;
+  border-radius: 8px;
+  font-size: 20px;
+  margin: 8px;
+}
+
+.add-task-cancel-button {
+  border: 1px solid blue;
+  color: blue;
+  width: 10vw;
+  height: 5vh;
+  overflow-wrap: anywhere;
+}
+
+.add-task-add-button {
+  border: 1px solid green;
+  color: green;
+  width: 10vw;
+  height: 5vh;
+  overflow-wrap: anywhere;
+}
+
+.add-task-cancel-button:hover,
+.add-task-add-button:hover {
+  border-width: 2px;
+  font-weight: 500;
+  background: #eee;
+  cursor: pointer;
+}
+
+.title-input {
+  width: 32vw;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #999;
+  padding-left: 8px;
+  font-size: 18px;
+  color: #555;
+  box-sizing: border-box;
+}
+
+.title-input:focus {
+  border: 1px solid #999;
+  outline: none;
+}
+
+.title-input::placeholder {
+  color: #bbb;
+}
+
+.nametext {
+  font-size: 20px;
+  color: #555;
+  text-align: left;
+  font-weight: 500;
+}
+
+.add-task-opacity{
+  opacity: 0.5;
+}
+.add-task-opacity:hover{
+  border: 1px solid green;
+  color: green;
+  width: 10vw;
+  height: 5vh;
+  background: #ffffff;
+  overflow-wrap: anywhere;  
+  cursor: default;
+}
